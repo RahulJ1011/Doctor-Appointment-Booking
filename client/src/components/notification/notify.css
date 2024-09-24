@@ -1,0 +1,21 @@
+.notify-container {
+    box-shadow: 0px 4px 16px rgba(17, 17, 26, 0.1), 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1);
+    padding: 20px;
+  }
+.notify-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.btn
+{
+    background-color: rgba(213, 140, 178, 0.8);
+    color:rgba(88, 84, 88, 0.8);
+    padding: 10px 15px;
+    width: 100px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 10px;
+}
